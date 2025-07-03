@@ -129,6 +129,10 @@ USE_TZ = True
 
 STATIC_URL = "static/"
 
+# Codespace Django REST API endpoint suffix
+CODESPACE_API_SUFFIX = "-8000.app.github.dev"
+# Ejemplo de uso: f"https://<codespace-name>{CODESPACE_API_SUFFIX}/api/"
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
